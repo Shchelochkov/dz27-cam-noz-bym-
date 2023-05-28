@@ -1,0 +1,136 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    background-image: url(img/fon.jpg);
+}
+#but1{
+    display:block;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 1px solid rgb(0, 0, 0);
+    background-image: url(img/fire.gif);
+    background-repeat: no-repeat;
+    background-position: -80px 0px;
+    background-size: cover;
+}
+#but2{
+    display:block;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 1px solid rgb(0, 0, 0);
+    background-image: url(img/water.gif);
+    background-repeat: no-repeat;
+    background-position: -80px 0px;
+    background-size: cover;
+}
+#but3{
+    display:block;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 1px solid rgb(0, 0, 0);
+    background-image: url(img/ground.gif);
+    background-repeat: no-repeat;
+    background-position: -80px 0px;
+    background-size: cover;
+}
+div{
+    display: flex;
+    justify-content: space-evenly;
+}
+h2{
+    display: flex;
+    justify-content: center;
+}
+p{
+    display: flex;
+    justify-content: center;
+    font-size: x-small;
+}
+#out{
+    display: flex;
+    flex-direction: column nowrap;;
+}
+
+@media (max-width:1000px){
+    #but1{
+        display:block;
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        border: 1px solid rgb(0, 0, 0);
+        background-image: url(img/fire.gif);
+        background-repeat: no-repeat;
+        background-position: -40px 0px;
+        background-size: cover;
+    }
+    #but2{
+        display:block;
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        border: 1px solid rgb(0, 0, 0);
+        background-image: url(img/water.gif);
+        background-repeat: no-repeat;
+        background-position: -40px 0px;
+        background-size: cover;
+    }
+    #but3{
+        display:block;
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        border: 1px solid rgb(0, 0, 0);
+        background-image: url(img/ground.gif);
+        background-repeat: no-repeat;
+        background-position: -40px 0px;
+        background-size: cover;
+    }
+}
+@media (max-width:500px){
+    #but1{
+        display:block;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        border: 1px solid rgb(0, 0, 0);
+        background-image: url(img/fire.gif);
+        background-repeat: no-repeat;
+        background-position: -20px 0px;
+        background-size: cover;
+    }
+    #but2{
+        display:block;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        border: 1px solid rgb(0, 0, 0);
+        background-image: url(img/water.gif);
+        background-repeat: no-repeat;
+        background-position: -20px 0px;
+        background-size: cover;
+    }
+    #but3{
+        display:block;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        border: 1px solid rgb(0, 0, 0);
+        background-image: url(img/ground.gif);
+        background-repeat: no-repeat;
+        background-position: -20px 0px;
+        background-size: cover;
+    }
+    }
+    #but1:hover{
+        box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.5);
+    }
+    #but2:hover{
+        box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.5);
+    }
+    #but3:hover{
+        box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.5);
+    }
+
