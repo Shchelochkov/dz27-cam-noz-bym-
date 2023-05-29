@@ -47,11 +47,17 @@ h2{
 p{
     display: flex;
     justify-content: center;
-    font-size: x-small;
+    font-size: small;
 }
+
+ul {
+    list-style-type: none; /* Убирает буллиты */
+    
+}
+
 #out{
     display: flex;
-    flex-direction: column nowrap;;
+    flex-direction: column nowrap;
 }
 
 @media (max-width:1000px){
@@ -125,12 +131,12 @@ p{
     }
     }
     #but1:hover{
-        box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.5);
+        box-shadow: 0px 0px 5px 5px rgba(179, 179, 179, 0.5);
     }
     #but2:hover{
-        box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.5);
+        box-shadow: 0px 0px 5px 5px rgba(179, 179, 179, 0.5);
     }
     #but3:hover{
-        box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.5);
+        box-shadow: 0px 0px 5px 5px rgba(179, 179, 179, 0.5);
     }
 

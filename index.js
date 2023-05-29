@@ -43,18 +43,30 @@ function result(){
     let res = human+comp
     if (win.includes(res)){
         console.log('Вы выиграли')
-        pobeda = '<p><img src="img/hwin.gif" alt="" height="100px">' +  'Победа'+'</p>'
+        pobeda = '<p><img src="img/hwin.gif" alt="" height="100px">' +'<p>'+  'Сегодня, Скайнет повержен!'+'</p>'
 
     }
     else if (loose.includes(res)){
         console.log('Вы проиграли')
-        pobeda = '<p><img src="img/compwin.gif" alt="" height="100px">' +  'Поражение'+'</p>'
+        pobeda = '<p><img src="img/compwin.gif" alt="" height="100px">' +'<p>'+  'Hasta La Vista Baby'+'</p>'
     }
     else {
         console.log('Ничья')
-        pobeda = '<p><img src="img/nichja.gif" alt="" height="100px">' +  'Ничья'+'</p>'
+        pobeda = '<p><img src="img/nichja.gif" alt="" height="100px">' +'<p>'+  'I.ll Be Back'+'</p>'
     }
-    out.innerHTML ='Ход человека - '+ human + '\n' + 'Ход компа - ' + comp + '\n' + pobeda
-    
+    out.innerHTML = 
+    '<ul>'+
+    '<li>'+
+        'Ход человека - '+ human +
+    '</li>'+
+    '<li>'+
+        'Ход компа - ' + comp +
+    '</li>'+
+    '<li>'+
+        pobeda +
+    '</li>'+
+    '</ul>'
 }
 
+
+    
